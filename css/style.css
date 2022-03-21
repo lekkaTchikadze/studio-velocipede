@@ -3,50 +3,63 @@ html {
     scroll-behavior: smooth;
 }
 
- .container{
-     max-width: 1170px;
-     width: 100%;
-     margin: 0 auto ;
- }
- .burger{
-     display: none;
- }
- header {
-     padding: 15px 50px 15px;
+body {
     background-color: #373426;
+}
+
+.container {
+    max-width: 1170px;
     width: 100%;
-    position: fixed;
+    margin: 0 auto;
+}
+
+.burger {
+    display: none;
+}
+
+header {
+    padding: 15px 50px 15px;
+    background-color: transparent;
+    width: 100%;
+    /* position: fixed; */
     top: 0;
-     
- }
- nav {
+
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
- .logo {
+
+.logo {
     width: 70px;
- }
- .navigation{
+}
+
+.navigation {
     font-family: 'barlow', sans-serif;
     font-weight: 300;
-    font-size:30px ;
-    color:#ffffff;
-    text-transform:capitalize;
- }
- .icons{
-     font-size: 30px;
-    
- }
- .social{
+    font-size: 30px;
     color: #ffffff;
- }
- .icons :not(:last-child) {
-     margin-right: 18px;
+    text-transform: capitalize;
+}
 
- }
- .btn{
+.icons {
+    font-size: 30px;
+
+}
+
+.social {
+    color: #ffffff;
+}
+
+.icons :not(:last-child) {
+    margin-right: 18px;
+
+}
+
+.btn {
     padding: 1.04em 3.47em;
     border-style: solid;
     border-width: 2px;
@@ -54,42 +67,70 @@ html {
     border-radius: 100px;
     background-color: #373426;
     transition: box-shadow 200ms cubic-bezier(.25, .46, .45, .94);
-    font-family: 'barlow', sans-serif; 
+    font-family: 'barlow', sans-serif;
     color: #fff;
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-right: -30px;
- }
- .btn:hover {
+}
+
+.btn:hover {
     box-shadow: 0 0 30px 0 #fffc00;
     background-color: #fff;
-  }
-  .btn.navbar{
+}
+
+.btn.navbar {
     position: absolute;
     left: auto;
     top: 0%;
     right: 0%;
     bottom: auto;
     background-color: transparent;
-    -webkit-transition: color 200ms cubic-bezier(.25, .46, .45, .94), background-color 200ms cubic-bezier(.25, .46, .45, .94), box-shadow 200ms cubic-bezier(.25, .46, .45, .94);
     transition: color 200ms cubic-bezier(.25, .46, .45, .94), background-color 200ms cubic-bezier(.25, .46, .45, .94), box-shadow 200ms cubic-bezier(.25, .46, .45, .94);
     color: #fff;
     font-size: 24px;
-  }
-  
-  .btn.navbar:hover {
-    background-color: #ffd;
-    color: #000;
-  }
-
-.btn:hover {
-	color: #000;
-    font-weight: 700;
-    
 }
 
+.btn.navbar:hover {
+    background-color: #ffd;
+    color: #000;
+}
 
-  
-  
+.btn:hover {
+    color: #000;
+    font-weight: 700;
+
+}
+
+.banner {
+    position: absolute;
+    width: 280px;
+    top: 120px;
+    left: 1100px;
+
+}
+
+.first-title {
+    position: relative;
+    right: 120px;
+    top: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 170px;
+    color: #000;
+}
+
+.first-title:hover {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #000,
+        0 0 21px #fff,
+        0 0 42px #fdec13,
+        0 0 82px #fffc00,
+        0 0 92px #fffc00,
+        0 0 102px #fffc00;
+
+}
