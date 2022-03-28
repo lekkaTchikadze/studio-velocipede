@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background:radial-gradient(#000, grey);
+    background:radial-gradient(#000000, darkgrey);
 }
 
 .container {
