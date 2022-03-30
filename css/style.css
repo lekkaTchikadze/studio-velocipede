@@ -342,6 +342,7 @@ nav {
     font-family:'Amatic SC', cursive;
     font-size: 55px;
     font-weight: 700;
+    color:#9ba56f;
 }
 .team-mem {
  display: flex;
@@ -354,18 +355,24 @@ nav {
     margin-right: 100px;
 
 }
+.kemo{
+    margin-top: 50px;
+}
+.kemoh{
+    margin-top: 30px;
+}
 .team-mem > h2 {
     font-family:'Amatic SC', cursive;
     font-weight: 700;
     font-size: 45px;
-    color: black;
+    color: #9ba56f;
     margin-right: 100px;
 }
 .team-mem > p {
     font-family:'Amatic SC', cursive;
     font-weight: 700;
     font-size: 30px;
-    color: black;
+    color: #9ba56f;
     margin-right: 100px;
 }
 
