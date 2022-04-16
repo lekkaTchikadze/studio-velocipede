@@ -93,21 +93,70 @@ nav {
     font-weight: 700;
 
 }
+.s-s-1{
+    display: flex;
+    justify-content: space-between;
+}
 
 .s-1 {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
     overflow-y: hidden;
     background-color: #000;
 
-
-
 }
+
+  
+  .box {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  h3 {
+    font-family: 'Wendy One', sans-serif;
+    font-size:13vw;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 220px;
+    color: #feed13;
+    text-shadow: 0 10px 7px #000,0 -10px 1px #fff;
+    letter-spacing: -5px;
+    margin-right: 230px;
+
+  }
+  
+  h3:hover {
+    animation: glitch .3s linear infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes glitch {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+
 
 .banner {
     position: relative;
-    right: 105px;
     width: 285px;
 
 }
@@ -122,11 +171,35 @@ nav {
 .s-2-wrapper {
     background-color: #ffff00;
     position: relative;
-
-}
-
-.s-2-wrapper {
     text-align: center;
+}
+.jozeeo{
+    border-radius:48% 52% 46% 54% / 28% 36% 64% 72% ;
+    background-color: #523A28;
+}
+.jozee{
+    border-radius: 30% 70% 64% 36% / 30% 37% 63% 70% ;
+    background-color: #523A28;
+}
+.jozee2{
+    border-radius: 98% 2% 21% 79% / 82% 37% 63% 18% ;
+    background-color: #523A28;
+}
+.jozee3{
+    border-radius:57% 43% 50% 50% / 82% 14% 86% 18% ;
+    background-color: #523A28;
+}
+.jozee4{
+    border-radius: 56% 44% 53% 47% / 60% 48% 52% 40% ;
+    background-color: #523A28;
+}
+.jozee5{
+    border-radius: 30% 70% 64% 36% / 30% 37% 63% 70% ;
+    background-color: #523A28;
+}
+.jozee6{
+    border-radius: 56% 44% 53% 47% / 60% 48% 52% 40% ;
+    background-color: #523A28;
 }
 
 .s-2-wrapper>h2 {
