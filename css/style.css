@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #000;
+    background-color: #F7CA05;
 }
 
 .container {
@@ -110,21 +110,24 @@ nav {
   
   .box {
     position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top:200px;
+    left:200px;
+    /* top: 50%;
+    left:50%; */
+    /* transform: translate(-50%,-50%); */
   }
   
   h3 {
     font-family: 'Wendy One', sans-serif;
-    font-size:13vw;
+    font-size:240px;
     white-space: nowrap;
     overflow: hidden;
     line-height: 220px;
-    color: #feed13;
-    text-shadow: 0 10px 7px #000,0 -10px 1px #fff;
+    color: #F7CA05;
+    text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 -10px 1px #fff;
     letter-spacing: -5px;
     margin-right: 230px;
+    text-align: center;
 
   }
   
@@ -158,8 +161,10 @@ nav {
 .banner {
     position: relative;
     width: 285px;
+    margin-right: 170px;
 
 }
+
 
 .wrapper {
     position: relative;
