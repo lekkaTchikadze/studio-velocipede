@@ -29,6 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 
 }
 
@@ -42,6 +43,7 @@ nav {
     font-size: 35px;
     color: #ffffff;
     text-transform: capitalize;
+
 }
 
 
@@ -227,7 +229,7 @@ h3:hover {
 .s-2-wrapper>h2 {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    font-size: 69px;
+    font-size: 60px;
     text-transform: uppercase;
     color: #000;
     margin-bottom: 55px;
@@ -290,7 +292,7 @@ h3:hover {
 .team-mem>h2 {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 60px;
     color: #9ba56f;
     margin-right: 100px;
 }
@@ -312,20 +314,19 @@ h3:hover {
 
 .roadmap-container .roadmap-h2 {
     background-size: 250px 3px;
-    color: #159CDF;
+    color: #523A28;
     z-index: 1;
-    font-family: "Stag Sans Round", sans-serif;
-    font-size: 45px;
-    line-height: 55px;
-    font-weight: 500;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 800;
     position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 6px;
+    text-transform: uppercase;
     text-align: center;
 }
 
 .roadmap-container .roadmap-timeline {
-    padding-top: 30px;
+    
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -336,10 +337,10 @@ h3:hover {
     z-index: 3;
     width: 8px;
     height: 8px;
-    margin-left: -6px;
-    border: 2px solid #1BACB3;
+    margin-left: -4px;
+    border: 2px solid #ffff00;
     border-radius: 6px;
-    background-color: #1BACB3;
+    background-color: #ffff00;
 }
 
 .roadmap-container .timeline-list {
@@ -351,7 +352,7 @@ h3:hover {
 .roadmap-container .timeline-list .timeline-list-col {
     float: left;
     width: 50%;
-    padding-top: 50px;
+    padding-top: 35px;
     padding-right: 0;
     padding-left: 0;
     position: relative;
@@ -377,7 +378,7 @@ h3:hover {
     position: relative;
     width: 320px;
     min-height: 36px;
-    border-bottom: 0 solid #1BACB3;
+    border-bottom: 0 solid #ffff00;
 }
 
 .roadmap-container .timeline-list .timeline-item-block .timeline-item-label {
@@ -400,7 +401,7 @@ h3:hover {
     width: 100%;
     font-size: 16px;
     line-height: 21px;
-    color: #555;
+    color: #000;
     font-weight: 400;
     text-transform: none;
     border: 1px solid #ddd;
@@ -413,7 +414,9 @@ h3:hover {
 }
 
 .roadmap-container .timeline-list .timeline-item-block .timeline-item-content p {
-    background: url(../template/images/arrow-dot-gray2.png) 0 2px no-repeat;
+    font-family: 'Allerta Stencil', sans-serif;
+    
+    font-size: 16px;
     margin-bottom: 10px;
     background-size: 16px 16px;
     padding-left: 24px;
@@ -425,7 +428,7 @@ h3:hover {
 }
 
 .roadmap-container .timeline-list .timeline-col-right {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .roadmap-container .timeline-list .timeline-col-right .timeline-item-block {
@@ -446,8 +449,8 @@ h3:hover {
 .roadmap-container .timeline-list .timeline-list-vr {
     width: 0;
     height: 100%;
-    border-left: 1px solid #1BACB3;
-    border-right: 1px solid #1BACB3;
+    border-left: 1px solid #ffff00;
+    border-right: 1px solid #ffff00;
     position: absolute;
     left: 50%;
     margin-left: -1px;
@@ -458,7 +461,7 @@ h3:hover {
     float: left;
     width: 475px;
     height: 3px;
-    background-color: #555;
+    background-color: #000;
     position: relative;
 }
 
@@ -482,77 +485,78 @@ h3:hover {
 }
 
 .roadmap-container .timeline-list .timeline-item-block .timeline-item-label2 {
+    font-family: 'Allerta Stencil', sans-serif; 
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     text-align: left;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     padding: 7px 10px 6px 10px;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-green .timeline-item-label2 {
-    background-color: #78BE20;
+.roadmap-container .timeline-list .timeline-item-block-brown .timeline-item-label2 {
+    background-color: #523A28;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-green .timeline-item-label-hr {
-    background-color: #78BE20;
+.roadmap-container .timeline-list .timeline-item-block-brown .timeline-item-label-hr {
+    background-color: #523A28;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-green .item-dot {
-    background-color: #78BE20;
+.roadmap-container .timeline-list .timeline-item-block-brown .item-dot {
+    background-color: #523A28;
     border-color: #fff;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-green2 .timeline-item-label2 {
-    background-color: #26A3AA;
+.roadmap-container .timeline-list .timeline-item-block-brown2 .timeline-item-label2 {
+    background-color: #523A28;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-green2 .timeline-item-label-hr {
-    background-color: #26A3AA;
+.roadmap-container .timeline-list .timeline-item-block-brown2 .timeline-item-label-hr {
+    background-color: #523A28;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-green2 .item-dot {
-    background-color: #26A3AA;
+.roadmap-container .timeline-list .timeline-item-block-brown2 .item-dot {
+    background-color: #523A28;
     border-color: #fff;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-blue .timeline-item-label2 {
-    background-color: #159CDF;
+.roadmap-container .timeline-list .timeline-item-block-yellow .timeline-item-label2 {
+    background-color: #ffff00;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-blue .timeline-item-label-hr {
-    background-color: #159CDF;
+.roadmap-container .timeline-list .timeline-item-block-yellow .timeline-item-label-hr {
+    background-color: #ffff00;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-blue .item-dot {
-    background-color: #159CDF;
+.roadmap-container .timeline-list .timeline-item-block-yellow .item-dot {
+    background-color: #ffff00;
     border-color: #fff;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-blue2 .timeline-item-label2 {
-    background-color: #00507F;
+.roadmap-container .timeline-list .timeline-item-block-yellow2 .timeline-item-label2 {
+    background-color: #523A28;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-blue2 .timeline-item-label-hr {
-    background-color: #00507F;
+.roadmap-container .timeline-list .timeline-item-block-yellow2 .timeline-item-label-hr {
+    background-color: #523A28;
 }
 
-.roadmap-container .timeline-list .timeline-item-block-blue2 .item-dot {
-    background-color: #00507F;
+.roadmap-container .timeline-list .timeline-item-block-yellow2 .item-dot {
+    background-color: #523A28;
     border-color: #fff;
 }
 
 .roadmap-container .timeline-list .timeline-item-block-violet .timeline-item-label2 {
-    background-color: #890C58;
+    background-color: #ffff00;
 }
 
 .roadmap-container .timeline-list .timeline-item-block-violet .timeline-item-label-hr {
-    background-color: #890C58;
+    background-color: #ffff00;
 }
 
 .roadmap-container .timeline-list .timeline-item-block-violet .item-dot {
-    background-color: #890C58;
+    background-color: #ffff00;
     border-color: #fff;
 }
 
