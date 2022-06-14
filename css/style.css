@@ -176,6 +176,9 @@ h3:hover {
     top: 15px;
 
 }
+.sec-banner{
+    display: none;
+}
 
 
 /* .wrapper {
