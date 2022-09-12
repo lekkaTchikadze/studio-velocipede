@@ -50,13 +50,16 @@ nav {
 .logo {
     width: 75px;
 }
-
+navigation-box {
+    margin-left:20px;
+}
 .navigation {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     font-size: 35px;
     color: #ffffff;
     text-transform: capitalize;
+    margin-right: 25px;
 
 }
 
@@ -64,6 +67,7 @@ nav {
 
 .icons {
     font-size: 30px;
+    margin-right: 25px;
 
 }
 

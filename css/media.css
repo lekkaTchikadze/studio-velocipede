@@ -1,4 +1,6 @@
-@media only screen and (max-width: 376px) {
+
+@media only screen and (max-width: 500px) {
+
 
     .icons,
     .navigation,
@@ -18,7 +20,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 15px;
-        margin-left: -5px;
+        margin-left: -50px;
     }
 
     .btn-sec>span {
@@ -139,7 +141,8 @@
 
     .bubbles h1 {
         position: relative;
-        margin: 1em 0 0;
+        margin-bottom: 50px;
+        margin-top: 50px;
         font-family: 'Wendy One', sans-serif;
         color: #ffff00;
         z-index: 2;
