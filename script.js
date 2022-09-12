@@ -42,3 +42,17 @@ jQuery(document).ready(function($){
     }, 350);
  
 });
+$(".hover").mouseleave(
+	function () {
+		$(this).removeClass("hover");
+	}
+);
+
+function ShowOrHide() {
+	let menu = document.getElementById("navbar-mobile");
+	if (menu.style.display === "none") {
+		menu.style.display = "flex";
+	} else {
+		menu.style.display = "none";
+	}
+}

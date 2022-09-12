@@ -70,7 +70,7 @@
         
     }
     .team-mem>img {
-        width: 200px;
+        width: 175px;
         margin: 0; 
     
     }
@@ -78,7 +78,7 @@
     .team-mem>h2 {
         font-family: 'Amatic SC', cursive;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         color: #9ba56f;
         margin-right: 0;
     }
@@ -86,7 +86,7 @@
     .team-mem>p {
         font-family: 'Amatic SC', cursive;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 25px;
         color: #9ba56f;
         margin: 0;
     }
@@ -107,6 +107,9 @@
 
 
 @media only screen and (max-width: 1170px) {
+    .navbar-mobile{
+        display: flex;
+    }
     .first-banner {
         display: none;
     }
